@@ -1,3 +1,42 @@
 * {
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8; /* Ajuste a cor de fundo conforme necessário */
+}
+
+nav img {
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    flex:auto;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; /* Ajuste a cor conforme necessário */
 }
