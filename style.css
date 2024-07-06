@@ -93,3 +93,31 @@ a:hover{
     text-align: center;
     color: #e53939;
 }
+
+.hobby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-item h3 {
+    margin: 10px 0;
+}
+
+.hobby h2 {
+    text-align: center;
+    justify-content: center;
+}
