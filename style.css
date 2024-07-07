@@ -6,6 +6,10 @@
     color: white;
 }
 
+body {
+    height: 10000px;
+}
+
 ul{
     list-style: none;
 
@@ -94,22 +98,36 @@ a:hover{
     color: #e53939;
 }
 
+/* Parte do hobby */
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e53939;
+    margin-top: 0.5rem;
+}
+
 .hobby {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-left: 3.1rem;
+    border: 1px solid white;
+    
 }
 
 .gallery-item {
     text-align: center;
     margin: 0 10px;
+    
 }
 
 .gallery-item img {
-    max-width: 100%;
+    width: 18rem;
     height: auto;
 }
 
@@ -117,7 +135,73 @@ a:hover{
     margin: 10px 0;
 }
 
-.hobby h2 {
+.motivacoes {
+    margin-top: 2.7rem;
+
+}
+
+/* Projetos */
+
+.projetos {
     text-align: center;
+    margin-top: 2rem;
+}
+
+.projetos h2 {
+    color: #e53939;
+}
+
+.project-exhibition {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.project-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: #e53939;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e53939;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #e26565;
 }
