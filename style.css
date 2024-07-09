@@ -6,9 +6,7 @@
     color: white;
 }
 
-body {
-    height: 3000px;
-}
+
 
 ul{
     list-style: none;
@@ -56,7 +54,7 @@ a:hover{
 /* container do corpo */
 
 
-.container {
+#container {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -68,6 +66,20 @@ a:hover{
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.txt1,
+.txt2 {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.txt1:hover {
+    color: #e53939;
+}
+
+.txt2:hover {
+    color: #e53939;
 }
 
 .text-left,
@@ -142,12 +154,12 @@ a:hover{
 
 /* Projetos */
 
-.projetos {
+#projetos {
     text-align: center;
     margin-top: 2rem;
 }
 
-.projetos h2 {
+#projetos h2 {
     color: #e53939;
 }
 
@@ -158,6 +170,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid;
 }
 
 .project-card {
@@ -187,7 +201,7 @@ a:hover{
 }
 
 .project-card p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #666;
 }
 
@@ -199,9 +213,41 @@ a:hover{
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 .project-card a:hover {
     background-color: #e26565;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.icones {
+    text-align: center;
+    padding: 2rem;
+}
+
+.icones ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones li {
+    margin: 0 10px;
+}
+
+.icones a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
 }
